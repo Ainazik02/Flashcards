@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapOnFlashcard(_ sender: Any) {
-        questionLabel.isHidden=true;
+        questionLabel.isHidden = !questionLabel.isHidden
     }
     
     @IBAction func didTapOnNext(_ sender: Any) {
@@ -61,6 +61,7 @@ class ViewController: UIViewController {
         print("Our current index is \(currentIndex)")
         updateNextPrevButtons()
         updateLables()
+        saveAllFlashcardsToDisk()
     }
     func updateNextPrevButtons() {
             if currentIndex == flashcards.count - 1 {
@@ -85,7 +86,7 @@ class ViewController: UIViewController {
         let dictionaryArray = flashcards.map { (card) -> [String: String] in return ["question": card.question, "answer": card.answer]
             
         }
-        UserDefaults.standard.set(flashcards, forKey: "flashcards")
+        UserDefaults.standard.set(dictionaryArray, forKey: "flashcards")
         print("🎉 Flashcards saved to UserDefaults")
 
     }
