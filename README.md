@@ -49,7 +49,7 @@ Flashcard App, which allows browse through multiple flashcards, store flashcards
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/wabAGkrsp1.gif" width=200><br>
+<img src="http://g.recordit.co/9RSF8KO7dt.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
