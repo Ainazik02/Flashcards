@@ -59,3 +59,28 @@ Flashcard App, which allows browse through multiple flashcards, store flashcards
 - [ ] User can delete a flashcard
 - [ ] User can edit existing flashcard
 - [ ] User can store multiple choice questions
+
+
+📝 `NOTE` Paste this template at the top of your existing `README.md` file from the last lab.
+
+## Lab 4
+
+### App Description
+Flashcard- cool application with proper icon. It has animations while moving forward, backward and showing answer, question. It is user friendly, with buttons showed. 
+
+### App Walk-though
+
+<img src="http://g.recordit.co/NB9px6k8sI.gif" width=200><br>
+
+
+## Required
+- [x] User should see the app icon 
+- [x] User should see a splash screen
+- [x] User should see an flip animation when revealing the answer
+- [x] User should see a slide animation when going to the next flashcard
+- [x] User should see a slide animation when going to the previous flashcard
+- [x] Push code to GitHub
+## Optional
+- [ ] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
+- [ ] User should see all views properly layout when using the app on a phone of different sizes
+- [ ] Correct answer in multiple choice should be random
